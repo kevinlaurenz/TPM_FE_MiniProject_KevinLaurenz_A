@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #E3E3E3;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150vh;
+}
+
+p {
+    font-size: 18px;
+    line-height: 35px;
+    color: #484848;
+}
+
+h2 {
+    font-size: 16px;
+    font-style: bold;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background-color: #FFFFFF;
+    width: 360px;
+    height: 590px;
+    padding: 20px; 
+    border-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.toggle-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.toggle-header-line {
+    width: 80px;
+    height: 4px;
+    background-color: #EAEAEA;
+    border-radius: 2px;
+}
+
+.toggle-header-line.active {
+    background-color: #2e2e2e;
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.title {
+    font-size: 14px;
+    color: #000000;
+    font-weight: bold;
+}
+
+.card-content {
+    text-align: left;
+    position: relative;
+}
+
+.percentage {
+    font-size: 90px;
+    color: #000000;
+    margin: 10px 0;
+}
+
+.ornament-star {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    bottom: 0;
+    padding: 0;
+    margin: 0;
+    left: 0;
+}
